@@ -31,15 +31,6 @@ export default function IniciarParcialito() {
                     📸 Parcialito de Bioimágenes
                 </h1>
 
-                <h2
-                    style={{
-                        marginBottom: "15px",
-                        color: "#444"
-                    }}
-                >
-                    Universidad Nacional de José C. Paz (No oficial)
-                </h2>
-
                 <p
                     style={{
                         fontSize: "1.1rem",
