@@ -102,7 +102,7 @@ export default function Parcialito() {
         e.preventDefault();
         
         try {
-            const respuesta = await fetch("http://localhost:5000/api/feedback", {
+            const respuesta = await fetch(`${import.meta.env.VITE_API_URL}/api/feedback`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
